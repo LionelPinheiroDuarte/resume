@@ -17,18 +17,19 @@
 
 /*--------------// BALISE //--------------*/
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--Font-Family);
-  text-transform: uppercase;
   color: var(--primary-color);
 }
+
 h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 600;
   width: 100%;
 }
 h3 {
@@ -42,7 +43,6 @@ h3::first-letter {
 }
 p {
   font-family: var(--Font-Family);
-  font-weight: 400;
   line-height: 1.5rem;
   color: var(--content-color);
 }
@@ -53,9 +53,12 @@ ul {
   list-style-type: none;
 }
 a {
-  font-size: 1.3rem;
   font-family: var(--Font-Family);
   color: var(--primary-color);
+}
+a:hover,
+:focus {
+  background-color: hsl(175, 94%, 63%);
 }
 button {
   font-family: var(--Font-Family);
@@ -64,7 +67,6 @@ button {
   border-style: 5px solid #ffffff;
   background-color: var(--primary-color);
 }
-
 button a {
   text-decoration: none;
   color: white;
@@ -81,7 +83,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "header title"
+    "header social"
     "situation situation"
     "main aside"
     "main aside"
@@ -92,8 +94,8 @@ body {
 header {
   grid-area: header;
 }
-#title {
-  grid-area: title;
+#social {
+  grid-area: social;
 }
 main {
   grid-area: main;

@@ -9,13 +9,3 @@
   color: var(--color-content);
   margin-left: 1em;
 }
-
-/* --- Social --- */
-
-#social a {
-    font-size: 1em;
-}
-
-#social ul li {
-    margin-bottom: 5px;
-}
