@@ -33,24 +33,30 @@ h2 {
   width: 100%;
 }
 h3 {
-  font-size: 1.4rem;
   font-family: var(--Font-Family);
-  font-weight: 600;
+  font-weight: normal;
   color: var(--primary-color);
+}
+h2::first-letter {
+  text-transform: uppercase;
 }
 h3::first-letter {
   text-transform: uppercase;
 }
+p,
+li {
+  color: var(--content-color);
+}
 p {
   font-family: var(--Font-Family);
   line-height: 1.5rem;
-  color: var(--content-color);
 }
 ul {
-  margin-left: -2em;
-  font-size: 1.2rem;
   font-family: var(--Font-Family);
-  list-style-type: none;
+  list-style-type: circle;
+}
+li {
+  margin-bottom: 0.8rem;
 }
 a {
   font-family: var(--Font-Family);

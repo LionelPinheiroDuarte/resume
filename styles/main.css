@@ -1,5 +1,4 @@
 main p {
-  font-size: 1.2em;
   color: var(--color-content);
 }
 
@@ -9,29 +8,19 @@ main p {
 }
 
 /* Expérience */
-
-.workplace {
-  margin-bottom: 5px;
+.work h3 {
+  margin-bottom: 0.5rem;
 }
-
 .date {
   margin-top: 0px;
 }
+h3 > span {
+  font-weight: bold;
+}
 
-/* Projets*/
-/*
-.skills_develop {
-  color: var(--color-content);
-  margin-left: 15px;
+.work ul li {
+  margin-left: -1.4rem;
 }
-ul .skills_develop {
-  margin-bottom: 0.6em;
-  font-size: 1em;
-}
-#lien ul li {
-    margin-bottom: 5px;
-}
-*/
 
 /* Certification */
 
