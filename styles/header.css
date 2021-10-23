@@ -22,4 +22,6 @@ header h1 > span {
 
 #social ul {
   margin-top: 10px;
+  margin-left: -2rem;
+  list-style: none;
 }

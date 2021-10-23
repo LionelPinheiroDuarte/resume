@@ -3,8 +3,8 @@ main p {
 }
 
 /* Formation */
-#formation h3 {
-  margin-bottom: 5px;
+.course h3 {
+  margin-bottom: 0.5rem;
 }
 
 /* Expérience */
@@ -18,16 +18,15 @@ h3 > span {
   font-weight: bold;
 }
 
-.work ul li {
-  margin-left: -1.4rem;
-}
-
 /* Certification */
 
 #certification h3 {
   margin-bottom: 0px;
 }
-
+#certification ul {
+  list-style: none;
+  margin-left: -2.45rem;
+}
 #certification p {
   margin-top: 10px;
 }
