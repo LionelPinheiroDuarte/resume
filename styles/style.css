@@ -44,8 +44,10 @@ h3::first-letter {
   text-transform: uppercase;
 }
 p,
-li {
+li,
+a {
   color: var(--content-color);
+  font-size: 1.15rem;
 }
 p {
   font-family: var(--Font-Family);
@@ -100,7 +102,7 @@ body {
     "main aside"
     "main aside"
     "footer footer";
-  grid-column-gap: 50px;
+  grid-column-gap: 40px;
   grid-row-gap: 15px;
 }
 header {
