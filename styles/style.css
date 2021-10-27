@@ -46,8 +46,8 @@ h2 {
   width: 100%;
 }
 h3 {
-  font-family: var(--Font-Family);
   font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 h2::first-letter {
   text-transform: uppercase;
@@ -67,7 +67,6 @@ p {
 }
 ul {
   font-family: var(--Font-Family);
-  list-style-type: circle;
 }
 li {
   margin-bottom: 0.8rem;

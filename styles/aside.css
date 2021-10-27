@@ -1,11 +1,7 @@
 /* --- CODE --- */
 
-#code h3 {
-  margin-bottom: 10px;
-}
 #code ul li {
   font-size: 1em;
-  list-style-type: disc;
   color: var(--color-content);
   margin-left: 1em;
 }
