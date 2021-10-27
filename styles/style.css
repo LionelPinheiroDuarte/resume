@@ -32,12 +32,12 @@ h1 {
 }
 h2 {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
 }
 h3 {
   font-family: var(--Font-Family);
-  font-weight: normal;
+  font-weight: 500;
   color: var(--primary-color);
 }
 h2::first-letter {
