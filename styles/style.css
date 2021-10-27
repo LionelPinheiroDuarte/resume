@@ -5,11 +5,11 @@
 @import "footer.css";
 
 /*--------------// COLOR  //-------------*/
-:root {
+/* :root {
   --primary-color: #333333;
-}
+} */
 :root {
-  --color-content: #4a5464;
+  --color-content: #333333;
 }
 :root {
   --Font-Family: "Montserrat";
@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
   font-family: var(--Font-Family);
-  color: var(--primary-color);
+  color: var(--color-content);
 }
 
 h1 {
@@ -38,7 +38,6 @@ h2 {
 h3 {
   font-family: var(--Font-Family);
   font-weight: 500;
-  color: var(--primary-color);
 }
 h2::first-letter {
   text-transform: uppercase;
@@ -49,7 +48,7 @@ h3::first-letter {
 p,
 li,
 a {
-  color: var(--content-color);
+  color: var(--color-content);
   font-size: 1.15rem;
 }
 p {
@@ -65,7 +64,6 @@ li {
 }
 a {
   font-family: var(--Font-Family);
-  color: var(--primary-color);
 }
 a:hover,
 :focus {
@@ -76,7 +74,7 @@ button {
   font-size: 1rem;
   padding: 0.3rem;
   border-style: 5px solid #ffffff;
-  background-color: var(--primary-color);
+  background-color: var(--color-content);
 }
 button a {
   text-decoration: none;
@@ -85,7 +83,7 @@ button a {
 /*--------------// ICON FONT //--------------*/
 i {
   margin-right: 0.5rem;
-  color: var(--primary-color);
+  color: var(--color-content);
 }
 /*--------------// Utility class //--------------*/
 
