@@ -48,11 +48,11 @@ h3::first-letter {
 p,
 li,
 a {
+  font-family: var(--Font-Family);
   color: var(--color-content);
   font-size: 1.15rem;
 }
 p {
-  font-family: var(--Font-Family);
   line-height: 1.5rem;
 }
 ul {
@@ -61,9 +61,6 @@ ul {
 }
 li {
   margin-bottom: 0.8rem;
-}
-a {
-  font-family: var(--Font-Family);
 }
 a:hover,
 :focus {
