@@ -135,3 +135,15 @@ footer {
 section {
   margin-bottom: 5vh;
 }
+
+/*--------------// Print Version //--------------*/
+
+@media print {
+  footer {
+    display: none;
+  }
+  @page {
+    size: auto;
+    margin: 0.5cm 0.5cm 0cm 0.5cm;
+  }
+}
