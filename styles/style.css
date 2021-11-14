@@ -41,7 +41,7 @@ h1 {
   font-weight: 700;
 }
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 500;
   width: 100%;
 }
@@ -110,7 +110,7 @@ body {
     "main aside"
     "footer footer";
   grid-column-gap: 40px;
-  grid-row-gap: 15px;
+  grid-row-gap: 20px;
 }
 header {
   grid-area: header;
@@ -131,13 +131,15 @@ footer {
   grid-area: footer;
 }
 
-section {
-  margin-bottom: 5vh;
+main section {
+  margin-bottom: 4vh;
 }
-
 /*--------------// Print Version //--------------*/
 
 @media print {
+  body {
+    background-color: none;
+  }
   footer {
     display: none;
   }
