@@ -99,18 +99,17 @@ i {
 
 /*--------------// Positionnement //--------------*/
 body {
-  width: 980px;
+  width: 50rem;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "header social"
-    "situation situation"
-    "main aside"
-    "main aside"
-    "footer footer";
-  grid-column-gap: 40px;
-  grid-row-gap: 20px;
+    "header"
+    "social"
+    "situation"
+    "main"
+    "aside"
+    "footer";
 }
 header {
   grid-area: header;
@@ -131,9 +130,6 @@ footer {
   grid-area: footer;
 }
 
-main section {
-  margin-bottom: 4vh;
-}
 /*--------------// Print Version //--------------*/
 
 @media print {

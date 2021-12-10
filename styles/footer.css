@@ -2,7 +2,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  height: 7vh;
   padding: 0.5rem;
 }
 footer a {

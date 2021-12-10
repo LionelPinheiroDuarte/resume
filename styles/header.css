@@ -20,7 +20,11 @@ header h1 > span {
 }
 
 #social ul {
-  margin-top: 10px;
-  margin-left: -2rem;
+  display: flex;
   list-style: none;
+}
+
+#social ul a {
+  margin-top: 0.8rem;
+  margin-right: 1.5rem;
 }
