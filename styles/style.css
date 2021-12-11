@@ -170,6 +170,12 @@ footer {
   header #role {
     margin-bottom: 0.75cm;
   }
+  #situation p {
+    line-height: 1rem;
+  }
+  #social ul {
+    margin-left: -2.45rem;
+  }
   footer {
     display: none;
   }
