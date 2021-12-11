@@ -3,6 +3,7 @@
 @import "main.css";
 @import "aside.css";
 @import "footer.css";
+@import "print.css";
 
 /*--------------// FONTS  //-------------*/
 
@@ -128,59 +129,4 @@ aside {
 }
 footer {
   grid-area: footer;
-}
-
-/*--------------// Print Version //--------------*/
-
-@media print {
-  body {
-    background-color: none;
-    grid-gap: 0.5cm;
-  }
-  a {
-    text-decoration: none;
-  }
-  h1 {
-    font-size: 18pt;
-  }
-  h2 {
-    font-size: 16pt;
-  }
-  h3 {
-    font-size: 14pt;
-  }
-  h2,
-  h3 {
-    margin: 0px;
-  }
-  p,
-  li {
-    font-size: 12pt;
-  }
-  #social ul {
-    margin: 0px auto;
-    line-height: 1rem;
-  }
-  header {
-    margin-bottom: 0.25cm;
-  }
-  header #role h1 {
-    margin-bottom: 1rem;
-  }
-  header #role {
-    margin-bottom: 0.75cm;
-  }
-  #situation p {
-    line-height: 1rem;
-  }
-  #social ul {
-    margin-left: -2.45rem;
-  }
-  footer {
-    display: none;
-  }
-  @page {
-    size: auto;
-    margin: 0.5cm 0.5cm 0cm 0.5cm;
-  }
 }
