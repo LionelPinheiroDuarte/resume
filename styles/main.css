@@ -17,6 +17,11 @@ h3 > span {
   font-weight: bold;
 }
 
+.work p {
+  align-items: center;
+  display: flex;
+}
+
 /* Formation */
 
 section ul {
