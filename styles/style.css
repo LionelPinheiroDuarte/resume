@@ -88,7 +88,8 @@ button a {
   color: white;
 }
 /*--------------// ICON FONT //--------------*/
-i {
+ion-icon {
+  font-size: 1.2em;
   margin-right: 0.5rem;
   color: var(--color-content);
 }

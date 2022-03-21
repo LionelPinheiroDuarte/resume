@@ -24,7 +24,11 @@ header h1 > span {
   list-style: none;
 }
 
+#social ul li {
+  display: flex;
+  align-items: center;
+}
+
 #social ul a {
-  margin-top: 0.8rem;
   margin-right: 1.5rem;
 }
