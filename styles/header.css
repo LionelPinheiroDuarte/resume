@@ -32,14 +32,15 @@ header h1 > span {
   font-weight: bold;
 }
 
-#social ul {
+#social {
   display: flex;
   list-style: none;
 }
 
-#social ul li {
+#social li {
   display: flex;
   align-items: center;
+  margin-right: 1.5rem;
 }
 
 #social ul a {
