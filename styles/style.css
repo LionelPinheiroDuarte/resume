@@ -107,10 +107,10 @@ body {
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
-    "social"
     "situation"
-    "main"
-    "aside"
+    "experience"
+    "formation"
+    "certification"
     "footer";
 }
 header {
@@ -119,11 +119,14 @@ header {
 #social {
   grid-area: social;
 }
-main {
-  grid-area: main;
+#experience {
+  grid-area: experience;
 }
-aside {
-  grid-area: aside;
+#formation {
+  grid-area: formation;
+}
+#certification {
+  grid-area: certifcation;
 }
 #situation {
   grid-area: situation;
