@@ -3,15 +3,16 @@
   align-items: baseline;
   justify-content: space-between;
 }
+header {
+  margin-bottom: 1rem;
+}
 header section {
   margin-bottom: 0;
-}
-header #role {
-  line-height: 0.4rem;
 }
 
 header h1 {
   display: flex;
+  margin: 0;
 }
 
 header h1 > span {
@@ -26,6 +27,9 @@ header h1 > span {
   font-size: 1.4rem;
   font-weight: bold;
   cursor: pointer;
+}
+#contact {
+  margin-top: 0.5rem;
 }
 #contact p {
   line-height: 0.3rem;
