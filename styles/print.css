@@ -27,15 +27,27 @@
   }
   #social ul {
     margin: 0px auto;
-    line-height: 1rem;
+  }
+  header {
+    margin-bottom: 0;
   }
   header #role {
-    margin-bottom: 0.75cm;
+    margin-top: 0.2cm;
+  }
+  header #utility {
+    display: none;
+  }
+  #situation h2 {
+    margin: 0px 0 -0.5cm 0;
   }
   #situation p {
-    line-height: 1rem;
+    margin: 0.5cm 0 0 0;
   }
-  #social ul {
+  section ul {
+    margin: 0.3cm auto 0 -1cm;
+  }
+  #social > ul {
+    margin-top: 0.2cm;
     margin-left: -2.45rem;
   }
   footer {
