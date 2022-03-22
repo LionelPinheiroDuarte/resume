@@ -21,6 +21,7 @@ h3 > span {
 .course p {
   align-items: center;
   display: flex;
+  margin-bottom: 0.5rem;
 }
 
 /* Formation */
