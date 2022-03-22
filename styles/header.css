@@ -3,6 +3,9 @@
   align-items: baseline;
   justify-content: space-between;
 }
+header section {
+  margin-bottom: 0;
+}
 header #role {
   line-height: 0.4rem;
 }
