@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to S3
         run: aws S3 sync . s3://${{ secrets.BUCKET_NAME }}
       - name: Create  Cloudfront Invalidation
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --PATH "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --path "/*"
