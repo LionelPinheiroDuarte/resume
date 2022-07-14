@@ -107,7 +107,6 @@ section {
 /*--------------// ICON FONT //--------------*/
 ion-icon {
   font-size: 1.2em;
-  margin-right: 0.5rem;
   color: var(--color-content);
 }
 /*--------------// Utility class //--------------*/
