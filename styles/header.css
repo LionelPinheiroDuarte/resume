@@ -42,6 +42,7 @@ header h1 > span {
 
 #social {
   display: flex;
+  flex-direction: column;
   list-style: none;
 }
 
