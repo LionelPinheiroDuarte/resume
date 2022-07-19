@@ -5,7 +5,7 @@
 }
 
 header h1 {
-  margin: 0;
+  line-height: 1.3rem;
 }
 
 header h1 > span {
@@ -23,14 +23,9 @@ header h1 > span {
   font-weight: bold;
   cursor: pointer;
 }
-
 #contact {
-  margin-top: 0.5rem;
+  line-height: 1.5rem;
 }
-#contact p {
-  line-height: 0.3rem;
-}
-
 #contact p span {
   font-weight: 500;
 }
