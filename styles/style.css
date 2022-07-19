@@ -73,16 +73,15 @@ h2::first-letter {
 h3::first-letter {
   text-transform: uppercase;
 }
+ul li {
+  line-height: 1.5rem;
+}
 p,
 li,
 a {
   font-family: var(--Font-Family);
-  font-weight: 400;
   color: var(--color-content);
   font-size: 1.15rem;
-}
-p {
-  line-height: 1.5rem;
 }
 ul {
   font-family: var(--Font-Family);
@@ -95,15 +94,13 @@ button {
   font-family: var(--Font-Family);
   font-size: 1rem;
   padding: 0.3rem;
-  /* border-style: 5px solid #ffffff;
-  background-color: var(--color-content); */
 }
 button a {
   text-decoration: none;
   color: white;
 }
 section {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 /*--------------// ICON FONT //--------------*/
 ion-icon {
