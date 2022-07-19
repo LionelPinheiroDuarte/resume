@@ -115,7 +115,7 @@ ion-icon {
 
 /*--------------// Positionnement //--------------*/
 body {
-  width: 50rem;
+  width: 60rem;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
