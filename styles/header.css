@@ -3,12 +3,6 @@
   align-items: baseline;
   justify-content: space-between;
 }
-header {
-  margin-bottom: 1rem;
-}
-header section {
-  margin-bottom: 0;
-}
 
 header h1 {
   margin: 0;
