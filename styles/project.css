@@ -1,0 +1,18 @@
+#projects ul:nth-child(3n){
+    list-style-type: disc;
+}
+
+.project-links{
+    display: flex;
+}
+
+.project-links > li{
+    margin-right: 1rem;
+}
+ .project{
+    margin-bottom: 1rem;
+ }
+
+ /* .project h3{
+    line-height: 1rem;
+ } */
