@@ -1,6 +1,8 @@
+@import "reset.css";
 @import "header.css";
 @import "situation.css";
 @import "main.css";
+@import "project.css";
 @import "aside.css";
 @import "footer.css";
 @import "print.css";
@@ -9,11 +11,27 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Regular.ttf") format("truetype"),
-    url("./fonts/Montserrat-SemiBold.ttf") format("truetype"),
-    url("./fonts/Montserrat-bold.ttf") format("truetype"),
-    url("./fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("./fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
 
 /*--------------// COLOR  //-------------*/
 /* :root {
@@ -28,7 +46,7 @@
 
 /*--------------// BALISE //--------------*/
 body {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 h1,
 h2,
@@ -42,20 +60,22 @@ h1 {
   font-weight: 700;
 }
 h2 {
-  margin: 0;
   font-size: 1.7rem;
   font-weight: 600;
   width: 100%;
 }
 h3 {
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0em;
 }
 h2::first-letter {
   text-transform: uppercase;
 }
 h3::first-letter {
   text-transform: uppercase;
+}
+ul li {
+  line-height: 1.5rem;
 }
 p,
 li,
@@ -64,14 +84,8 @@ a {
   color: var(--color-content);
   font-size: 1.15rem;
 }
-p {
-  line-height: 1.5rem;
-}
 ul {
   font-family: var(--Font-Family);
-}
-li {
-  margin-bottom: 0.8rem;
 }
 a:hover,
 :focus {
@@ -81,31 +95,28 @@ button {
   font-family: var(--Font-Family);
   font-size: 1rem;
   padding: 0.3rem;
-  /* border-style: 5px solid #ffffff;
-  background-color: var(--color-content); */
 }
 button a {
   text-decoration: none;
   color: white;
 }
 section {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 /*--------------// ICON FONT //--------------*/
 ion-icon {
   font-size: 1.2em;
-  margin-right: 0.5rem;
   color: var(--color-content);
 }
 /*--------------// Utility class //--------------*/
 
 .list-item-style {
-  margin-left: -1.4rem;
+    padding-left: 3.7rem;
 }
 
 /*--------------// Positionnement //--------------*/
 body {
-  width: 50rem;
+  width: 60rem;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
