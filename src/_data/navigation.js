@@ -1,5 +1,5 @@
 module.exports = {
-  en: [
+  fr: [
     {
       text: 'Page d\'accueil',
       url: '/fr/'
