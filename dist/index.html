@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
+<html lang="fr" dir="../fr/">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=-1" />
   <meta name="keywords" content="Golang, Go, HTML, CSS, Cloud, Serverless, Developer, AWS"/>
-  <meta name="language" content="{{ page.lang }}">
+  <meta name="language" content="fr">
   <meta name="author" content="Lionel Pinheiro Duarte">
   <meta name="description" content="Find out what I can do by clicking on this resume."/>
-  <title>{{ title }}</title>
+  <title>version française</title>
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://kit.fontawesome.com/127b2bdecd.js"></script>
 </head>
 <body>
-  {% set activePage = page.url %}
+  
   <header itemscope itemtype="http://schema.org/Person">
     <section id="role">
       <nav aria-label="Primary">
         <ul>
-          {% for item in navigation[page.lang] %}
+          
           <li>
-            <a href="{{ item.url }}">{{ item.text }}</a>
+            <a href="/en/">English version</a>
           </li>
-          {% endfor %}
+          
         </ul>
       </nav>
       <div>

@@ -1,14 +1,14 @@
 module.exports = {
   fr: [
     {
-      text: 'Page d\'accueil',
-      url: '/fr/'
+      text: 'English version',
+      url: '/en/'
     },
   ],
   en: [
     {
-      text: 'Home',
-      url: '/en/'
+      text: 'Version française',
+      url: '/'
     },
   ]
-}
+};
