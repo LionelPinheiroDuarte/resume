@@ -1,7 +1,7 @@
 ---
 title: 'version française'
 description: 'Ceci est la version français du site'
-layout: layout.njk
+layout: fr.njk
 data: ./_data/french.yaml
 permalink: "/"
 ---

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr" dir="../fr/">
+<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=-1" />
   <meta name="keywords" content="Golang, Go, HTML, CSS, Cloud, Serverless, Developer, AWS"/>
-  <meta name="language" content="fr">
+  <meta name="language" content="{{ page.lang }}">
   <meta name="author" content="Lionel Pinheiro Duarte">
   <meta name="description" content="Find out what I can do by clicking on this resume."/>
-  <title>version française</title>
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="styles/style.css">
   <script src="https://kit.fontawesome.com/127b2bdecd.js"></script>
 </head>
@@ -16,19 +16,19 @@
     <section id="role">
       <nav aria-label="Primary">
         <ul>
-          
+          {% for item in navigation[page.lang] %}
           <li>
-            <a href="/en/">English version</a>
+            <a href="{{ item.url }}">{{ item.text }}</a>
           </li>
-          
+          {% endfor %}
         </ul>
       </nav>
       <div>
-        <p></p>
+        <p>{{ en.name }}</p>
         <h1 itemprop="name" content="Lionel Pinheiro"><span itemprop="givenName">Lionel</span><span
           itemprop="familyName">Pinheiro</span>
         </h1>
-        <h2>Software engineer</h2>
+        <h2>{{ en.jobTitle }}</h2>
       </div>
       <div>
         <div id="contact">
