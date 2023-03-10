@@ -2,9 +2,12 @@ firstName: Lionel
 lastName: Pinheiro Duarte
 jobTitle: Software engineer
 projects:
-    project1:
+    -
         - projectName: name1
         - projectDescription: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.
-    project2:
+        - links:
+            - github: test1
+            - live: test2
+    -
         - projectName: name2
         - projectDescription: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.

@@ -6,6 +6,9 @@ module.exports = function(eleventyConfig) {
     defaultLanguage: 'fr' // Required
   });
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents)); 
+  eleventyConfig.addCollection("en", function(collectionApi) {
+    return collectionApi.getAll();
+  });
   return {
     dir: {
       input: 'src',
