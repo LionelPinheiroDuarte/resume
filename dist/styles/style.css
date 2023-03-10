@@ -1,0 +1,151 @@
+@import "reset.css";
+@import "header.css";
+@import "situation.css";
+@import "main.css";
+@import "project.css";
+@import "aside.css";
+@import "footer.css";
+@import "print.css";
+
+/*--------------// FONTS  //-------------*/
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+
+/*--------------// COLOR  //-------------*/
+/* :root {
+  --primary-color: #333333;
+} */
+:root {
+  --color-content: #333333;
+}
+:root {
+  --Font-Family: "Montserrat";
+}
+
+/*--------------// BALISE //--------------*/
+body {
+  background-color: #fff;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--Font-Family);
+  color: var(--color-content);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 100%;
+}
+h3 {
+  font-weight: 500;
+  margin-bottom: 0em;
+}
+h2::first-letter {
+  text-transform: uppercase;
+}
+h3::first-letter {
+  text-transform: uppercase;
+}
+ul li {
+  line-height: 1.5rem;
+}
+p,
+li,
+a {
+  font-family: var(--Font-Family);
+  color: var(--color-content);
+  font-size: 1.15rem;
+}
+ul {
+  font-family: var(--Font-Family);
+}
+a:hover,
+:focus {
+  background-color: hsl(175, 94%, 63%);
+}
+button {
+  font-family: var(--Font-Family);
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  margin-top: 1rem;
+}
+/*--------------// ICON FONT //--------------*/
+ion-icon {
+  font-size: 1.2em;
+  color: var(--color-content);
+}
+/*--------------// Utility class //--------------*/
+
+.list-item-style {
+    padding-left: 3.7rem;
+}
+
+/*--------------// Positionnement //--------------*/
+body {
+  width: 60rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "situation"
+    "experience"
+    "formation"
+    "certification"
+    "footer";
+}
+header {
+  grid-area: header;
+}
+#social {
+  grid-area: social;
+}
+#experience {
+  grid-area: experience;
+}
+#formation {
+  grid-area: formation;
+}
+#certification {
+  grid-area: certifcation;
+}
+#situation {
+  grid-area: situation;
+}
+footer {
+  grid-area: footer;
+}

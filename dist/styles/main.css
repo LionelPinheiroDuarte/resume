@@ -1,0 +1,28 @@
+/* Main */
+
+ul h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.work ul {
+  list-style-type: disc;
+}
+/* Expérience */
+
+.date {
+  margin-top: 0px;
+}
+h3 > span {
+  font-weight: bold;
+}
+.work, .course, .cert{
+  margin-bottom: 0.5rem;
+}
+
+/* Formation */
+
+section ul {
+  list-style-type: none;
+  margin: 0rem auto 0rem -2.5rem;
+}

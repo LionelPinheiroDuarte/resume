@@ -1,0 +1,51 @@
+#role {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+header h1 {
+  line-height: 1.3rem;
+}
+
+header h1 > span {
+  margin-right: 1rem;
+}
+#utility {
+  display: flex;
+  justify-content: end;
+  padding-top: 0.5rem;
+}
+
+#utility span {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#contact {
+  line-height: 1.5rem;
+}
+#contact p span {
+  font-weight: 500;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+#social li {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+#social ul a {
+  margin-right: 1.5rem;
+}
+
+#social ion-icon{
+  margin-right: 0.5rem;
+}
