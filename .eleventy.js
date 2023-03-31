@@ -6,12 +6,13 @@ module.exports = function(eleventyConfig) {
     defaultLanguage: 'fr' // Required
   });
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents)); 
+  eleventyConfig.addPassthroughCopy("./styles/");
   eleventyConfig.addCollection("en", function(collectionApi) {
     return collectionApi.getAll();
   });
   return {
     dir: {
-      input: 'src',
+      input: 'src/',
       output: 'dist',
       includes: "_includes",
     },

@@ -1,151 +1,184 @@
-@import "reset.css";
-@import "header.css";
-@import "situation.css";
-@import "main.css";
-@import "project.css";
-@import "aside.css";
-@import "footer.css";
-@import "print.css";
-
-/*--------------// FONTS  //-------------*/
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Light.ttf") format("truetype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-}
-
-
-/*--------------// COLOR  //-------------*/
-/* :root {
-  --primary-color: #333333;
-} */
-:root {
-  --color-content: #333333;
-}
-:root {
-  --Font-Family: "Montserrat";
-}
-
-/*--------------// BALISE //--------------*/
-body {
-  background-color: #fff;
-}
-h1,
-h2,
-h3 {
-  font-family: var(--Font-Family);
-  color: var(--color-content);
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: 700;
-}
-h2 {
-  font-size: 1.7rem;
-  font-weight: 600;
-  width: 100%;
-}
-h3 {
-  font-weight: 500;
-  margin-bottom: 0em;
-}
-h2::first-letter {
-  text-transform: uppercase;
-}
-h3::first-letter {
-  text-transform: uppercase;
-}
-ul li {
-  line-height: 1.5rem;
-}
-p,
-li,
-a {
-  font-family: var(--Font-Family);
-  color: var(--color-content);
-  font-size: 1.15rem;
-}
-ul {
-  font-family: var(--Font-Family);
-}
-a:hover,
-:focus {
-  background-color: hsl(175, 94%, 63%);
-}
-button {
-  font-family: var(--Font-Family);
-  font-size: 1rem;
-  padding: 0.3rem;
-}
-button a {
-  text-decoration: none;
-  color: white;
-}
-section {
-  margin-top: 1rem;
-}
-/*--------------// ICON FONT //--------------*/
-ion-icon {
-  font-size: 1.2em;
-  color: var(--color-content);
-}
-/*--------------// Utility class //--------------*/
-
-.list-item-style {
-    padding-left: 3.7rem;
-}
-
-/*--------------// Positionnement //--------------*/
-body {
-  width: 60rem;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "header"
-    "situation"
-    "experience"
-    "formation"
-    "certification"
-    "footer";
-}
-header {
-  grid-area: header;
-}
-#social {
-  grid-area: social;
-}
-#experience {
-  grid-area: experience;
-}
-#formation {
-  grid-area: formation;
-}
-#certification {
-  grid-area: certifcation;
-}
-#situation {
-  grid-area: situation;
-}
-footer {
-  grid-area: footer;
-}
+<!DOCTYPE html>
+<html lang="fr" dir="../fr/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=-1" />
+  <meta name="keywords" content="Golang, Go, HTML, CSS, Cloud, Serverless, Developer, AWS"/>
+  <meta name="language" content="fr">
+  <meta name="author" content="Lionel Pinheiro Duarte">
+  <meta name="description" content="Find out what I can do by clicking on this resume."/>
+  <title>english version</title>
+  <link rel="stylesheet" href=/styles/style.css">
+  <script src="https://kit.fontawesome.com/127b2bdecd.js"></script>
+</head>
+<body>
+   <header itemscope itemtype="http://schema.org/Person">
+    <section id="role">
+      <nav aria-label="Primary">
+        <ul>
+          
+          <li>
+            <a href="/en/">English version</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <div>
+        <h1 itemprop="name" content="Lionel Pinheiro Duarte"><span itemprop="givenName">Lionel </span><span
+          itemprop="familyName">Pinheiro Duarte</span>
+        </h1>
+        <h2>Software engineer</h2>
+      </div>
+      <div>
+        <div id="contact">
+          <p><span>Email: </span><a href="mailto:lionel.duarte.p@gmail.com">lionelpinhero@gmail.com</a></p>
+          <p><span>Site: </span><a href="lionelpinheiro.com">lionelpinheiro.com</a></p>
+        </div>
+        <ul id="social">
+          <li><ion-icon name="logo-linkedin"></ion-icon><a href="https://www.linkedin.com/in/lionel-pinheiro/"
+              target="_blanck">@lionel-pinheiro</a></li>
+          <li><ion-icon name="logo-github"></ion-icon><a href="https://github.com/Liopin" target="_blanck"></i>@liopin</a></li>
+          <li><ion-icon name="logo-twitter"></ion-icon><a href="https://twitter.com/Lionelpinheiro_"
+              target="_blanck"></i>@lionelpinheiro_</a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+  <main>
+    <main><p><li class="project">
+<h3>name1</h3>
+<p></p>
+<ul class="project-links"></p>
+<p></ul>
+</li></p>
+<p><li class="project">
+<h3></h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.</p>
+<ul class="project-links"></p>
+<p></ul>
+</li></p>
+<p><li class="project">
+<h3></h3>
+<p></p>
+<ul class="project-links"></p>
+<p><li><a href="test1">Github</a>
+<li><a href="">Live</a></p>
+<p><li><a href="">Github</a>
+<li><a href="test2">Live</a></p>
+<p></ul>
+</li></p>
+<p><li class="project">
+<h3>name2</h3>
+<p></p>
+<ul class="project-links"></p>
+<p></ul>
+</li></p>
+<p><li class="project">
+<h3></h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.</p>
+<ul class="project-links"></p>
+<p></ul>
+</li></p>
+</main>
+    <section id="situation">
+      <h2>présentation</h2>
+      <p>
+        Suite à une formation en Développement web je souhaite me spécialiser dans les technologies liées au front telles
+        que React, Graphql et la JAMStack via un contrat d'alternance avec OpenClassrooms.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li class="project">
+          <h3>Job Listing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.</p>
+          <ul class="list-item-style">
+            <li>Développement du site vitrine de l'entreprise en WordPress</li>
+            <li>Etude de la faisabilité pour porter un réseau de neurones de détection d'objet sur navigateur</li>
+          </ul>
+          <ul class="project-links">
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Demo</a></li>
+          </ul>
+        </li>
+        <li class="project">
+          <h3>Resume Challenge</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi praesentium ipsa dolorem.</p>
+          <ul class="list-item-style">
+            <li>Développement du site vitrine de l'entreprise en WordPress</li>
+            <li>Etude de la faisabilité pour porter un réseau de neurones de détection d'objet sur navigateur</li>
+          </ul>
+          <ul class="project-links">
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Demo</a></li>
+          </ul>
+        </li>
+      </ul>
+    <section id="experience">
+      <h2>expériences</h2>
+        <ul>
+        <li class="work">
+            <h3><span>protectAI - </span>Stage Développeur Web</h3>
+            <p class="date">décembre 2019 - janvier 2020</p>
+            <ul class="list-item-style">
+              <li>Développement du site vitrine de l'entreprise en WordPress</li>
+              <li>Etude de la faisabilité pour porter un réseau de neurones de détection d'objet sur navigateur</li>
+            </ul>
+        </li>
+        <li class="work">
+            <h3><span>entreprise Schütz - </span>Intérimaire Opérateur Système </h3>
+            <p class="date">juin 2014 - décembre 2017</p>
+            <ul class="list-item-style">
+              <li>Travail sur chaîne de production</li>
+            <ul>
+        </li>
+      </ul>
+    </section>
+    <section id="formation">
+      <h2>formations</h2>
+      <div itemscope itemtype="http://schema.org/Organization">
+        <ul>
+          <li class="course">
+            <h3>développeur Web / Mobile</h3>
+            <p class="date">mars 2019 - mars 2020</p>
+            <a href="https://simplon.co/" title="lien vers le site de la formation" target="_blanck"
+              itemprop="legalName">Simplon.co - Titre
+              RNCP31114 </a>
+          </li>
+          <li class="course">
+            <div class="course" itemscope itemtype="http://schema.org/Organization">
+              <h3>intégrateur WordPress</h3>
+              <p class="date">juin 2018 - juillet 2018</p>
+              <a href="https://simplon.co/" title="lien vers le site de la formation" target="_blanck"
+                itemprop="legalName">Simplon.co</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    </section>
+        <section id="certification">
+      <h2>certifications</h2>
+      <ul>
+        <li class="cert" itemscope itemtype="http://schema.org/Organization">
+          <h3>maîtrise de la qualité en projet web</h3>
+          <a href="https://directory.opquast.com/fr/certificat/MEC4XN/" title="lien vers le site de la formation"
+            itemprop="legalName" target="_blanck">Opquast</a>
+          <p>Score 820 niveau Avancé</p>
+        </li>
+        <li class="cert" itemscope itemtype="http://schema.org/Organization">
+          <h3>AWS Cloud Practitioner</h3>
+          <a href="https://www.youracclaim.com/badges/de73a254-efbc-4c9a-82ca-97b4ec14d6da?source=linked_in_profile"
+            title="lien vers le site de la formation" itemprop="legalName" target="_blanck">Amazon Web Services</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+   <p>This resume has been seen XX times</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
