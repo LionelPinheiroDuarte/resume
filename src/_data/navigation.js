@@ -8,7 +8,7 @@ module.exports = {
   en: [
     {
       text: 'Version française',
-      url: '/'
+      url: '/fr/'
     },
   ]
 };
