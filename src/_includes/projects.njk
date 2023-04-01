@@ -1,0 +1,17 @@
+<ul>
+{% for p in en.projects %}
+    <li class="project">
+    {% for i in p %}
+      <h3>{{ i.projectName }}</h3>
+      <p>{{ i.projectDescription }}</p>
+      <ul class="project-links">
+      {% for l in i.links %}
+        {% for j in l.link%}
+          <li><a href="{{ j.url }}">{{ j.name }}</a></li>
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    {% endfor %}
+    </li>
+{% endfor %} 
+</ul>
